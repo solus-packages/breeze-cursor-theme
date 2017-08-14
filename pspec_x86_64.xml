@@ -2,8 +2,8 @@
     <Source>
         <Name>breeze-cursor-theme</Name>
         <Packager>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
         </Packager>
         <License>GPL-2.0</License>
         <PartOf>desktop.theme</PartOf>
@@ -121,15 +121,16 @@
             <Path fileType="data">/usr/share/icons/breeze-cursor/cursors/zoom-in</Path>
             <Path fileType="data">/usr/share/icons/breeze-cursor/cursors/zoom-out</Path>
             <Path fileType="data">/usr/share/icons/breeze-cursor/index.theme</Path>
+            <Path fileType="data">/usr/share/icons/default/index.theme</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2016-06-16</Date>
+        <Update release="3">
+            <Date>2017-08-14</Date>
             <Version>5.6.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
         </Update>
     </History>
 </PISI>

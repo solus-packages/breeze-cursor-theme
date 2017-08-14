@@ -1,6 +1,6 @@
 name       : breeze-cursor-theme
 version    : 5.6.1
-release    : 2
+release    : 3
 source     :
     - http://stroblindustries.com/solus-tarballs/breeze-cursor-theme-5.6.1.tar.xz : f10a45c3f27a02c74ea862e16d91f8d5cf25396a78fe285769a5fbbbaad2ba2d
 license    : GPL-2.0
@@ -12,3 +12,5 @@ install    : |
     breezeDir=$installdir/usr/share/icons/breeze-cursor
     install -dm755 $breezeDir/
     cp -R $workdir/* $breezeDir/
+    # Provide shared link for budgie + mate desktop branding
+    install -D -m 00644 $pkgfiles/index.theme $installdir/usr/share/icons/default/index.theme
