@@ -1,8 +1,8 @@
 name       : breeze-cursor-theme
-version    : 5.6.1
-release    : 3
+version    : 5.11.0
+release    : 4
 source     :
-    - http://stroblindustries.com/solus-tarballs/breeze-cursor-theme-5.6.1.tar.xz : f10a45c3f27a02c74ea862e16d91f8d5cf25396a78fe285769a5fbbbaad2ba2d
+    - https://download.kde.org/stable/plasma/5.11.0/breeze-5.11.0.tar.xz : d46449e0845f46e5e4ba6a7e0976701e08c16c271e3bfd189a2c56d7e9370180
 license    : GPL-2.0
 component  : desktop.theme
 summary    : Breeze cursor theme
@@ -10,7 +10,7 @@ description: |
     Breeze cursor theme
 install    : |
     breezeDir=$installdir/usr/share/icons/breeze-cursor
-    install -dm755 $breezeDir/
-    cp -R $workdir/* $breezeDir/
+    install -dm00755 $breezeDir/
+    cp -R $workdir/cursors/Breeze/Breeze/* $breezeDir/
     # Provide shared link for budgie + mate desktop branding
     install -D -m 00644 $pkgfiles/index.theme $installdir/usr/share/icons/default/index.theme
